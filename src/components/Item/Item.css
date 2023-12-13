@@ -1,7 +1,10 @@
 .item{
-    widows: 350px;
+    width: 350px;
 }
-.itemp{
+.item img{
+    width: 80%;
+}
+.item p{
     margin: 6px 0px;
 }
 .item-prices{

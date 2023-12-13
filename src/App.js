@@ -6,6 +6,7 @@ import Shop from './pages/shop';
 import ShopCategory from './pages/shopcategory';
 import Product from './pages/product';
 import Cart from './pages/cart';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/cart' element={<Cart/>} />
           <Route path='/Login' element={<LoginSignup/>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
